@@ -1,0 +1,101 @@
+
+.topbar{
+    height: 50px;
+    margin-top: 12px;
+}
+.topbar > span {
+    float:right;
+    margin-right:30px;
+    padding: 10px;
+    width:80px;
+    height: 15px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    font-size: 17px;
+    text-align: justify;
+}
+.topbar > span > span{
+    float:right;
+    background-color: black;
+    color: white !important;
+    width: 20px;
+    border-radius: 50%;
+    height: 22px;
+    text-align: center;
+}
+
+.topbar > span:hover {
+   cursor: pointer;
+   background-color: black;
+   color: white;
+}
+
+.ShopContent {
+    border: 1px solid black;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    color: white;
+}
+.ShopContent > *{
+    margin: 3px;
+    padding: 3px;
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+ }
+.demo{
+    width: 230px;
+    height: 330px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.demo >  *{
+    text-align: center;
+}
+
+.para {
+    height: 150px;
+    background-color: #dee1e6;
+    border-radius: 5px 5px 0 0 ;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    font-size: 21px; 
+    flex-direction: column;
+}
+.buttonContainer {
+    margin-top: auto; 
+}
+.buttonContainer > button {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border:1px solid;
+}
+
+.buttonContainer > button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    bottom: 0;
+}
+del{
+    color: grey !important;
+}
+.demo > p > i{
+    color: orange;
+}
